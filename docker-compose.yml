@@ -1,0 +1,28 @@
+name: aorta-seg
+
+services:
+  dev:
+    build:
+      context: .
+      target: dev
+    image: aorta-seg:dev
+    container_name: aorta-seg-dev
+    ports:
+      - "8889:8889"
+    environment:
+      - JUPYTER_TOKEN=aorta-seg-dev-token
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    gpus: all
+    command:
+      [
+        "python",
+        "-m",
+        "jupyter",
+        "lab",
+        "--ip=0.0.0.0",
+        "--port=8889",
+        "--no-browser",
+        "--ServerApp.token=aorta-seg-dev-token",
+      ]

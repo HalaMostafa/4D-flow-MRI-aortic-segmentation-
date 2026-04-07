@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vscode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+nnUNet_raw
+nnUNet_preprocessed
+nnUNet_results
+data
