@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "preprocessing"
+        "preprocessing",
+        "segmantation_of_aorta_from_satndard_mri"
     ]
 }

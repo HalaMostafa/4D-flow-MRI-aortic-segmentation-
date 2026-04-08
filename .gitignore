@@ -1,1 +1,4 @@
 data/
+nnUNet_preprocessed/
+nnUNet_raw/
+nnUNet_results/
