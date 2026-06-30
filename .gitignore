@@ -1,4 +1,6 @@
-data/
-nnUNet_preprocessed/
-nnUNet_raw/
-nnUNet_results/
+/sample_data
+/train_data
+/nnUNet_raw
+/nnUNet_preprocessed
+/4d_flows_data
+/racelette
