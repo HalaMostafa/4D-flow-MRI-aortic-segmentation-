@@ -1,0 +1,20 @@
+# data manipulation
+pandas==3.0.2
+numpy==2.3.4
+h5py==3.16.0
+
+# data visualization
+scipy==1.17.1
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==5.24.1
+
+# Jupyter setup
+jupyterlab==4.5.6
+ipykernel==7.2.0
+
+# image processing
+nnunetv2==2.6.4 # for semantic segmentation
+nibabel==5.4.2 # read and write access to common neuroimaging file formats
+pyvista==0.48.4 # 3D visualization and mesh analysis
+pyvista-zstd==0.2.4 # optional dependency for pyvista to enable zstd compression support

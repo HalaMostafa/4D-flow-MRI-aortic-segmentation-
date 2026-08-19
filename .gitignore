@@ -3,4 +3,7 @@
 /nnUNet_raw
 /nnUNet_preprocessed
 /4d_flows_data
-/racelette
+/scripts/racelette
+/scripts/pvfiles
+/scripts/Exported
+/nnUNet_results
