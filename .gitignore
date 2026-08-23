@@ -7,3 +7,6 @@
 /scripts/pvfiles
 /scripts/Exported
 /nnUNet_results
+/train_data_racellete_4dflow
+/4Dflows
+/4dflows_magnitude_ahc
